@@ -1,0 +1,320 @@
+/* Navbar */
+.navbar {
+  background: #162B75;
+  font-family: 'Lato', sans-serif;
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,1);
+}
+
+.navbar-nav a {
+    color: #ffffff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* Main styling */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+li {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+.container {
+  width: 100%;
+}
+
+/* Showcase/Home */
+.particles-js {
+  position: absolute;
+}
+
+#showcase {
+  background: #f8f8f8;
+  margin-top: 70px;
+}
+
+#showcase h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 50px 0 20px 0;
+}
+
+#showcase p {
+  font-weight: bold;
+}
+
+#showcase img { /* left col-6 */
+  width: 55%;
+  padding: 60px 0 0 0;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  display: block;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+/* Mobile support for showcase-left */
+@media (max-width: 991px) {
+  .showcase-left {
+    text-align: center;
+  }
+}
+
+#showcase .showcase-left h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+
+/* 3 features section */
+#main-features {
+  background: #162B75 !important;
+  padding: 70px 0px 70px 0px;
+  text-align: center;
+}
+
+#main-features p {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  text-align: justify;
+
+}
+
+#main-features h2 {
+  color: #fff;
+  padding: 10px 0 0 0;
+}
+
+.features-wrapper {
+  padding: 0px 20px 0px 20px;
+}
+
+.img-features {
+  margin: 20px 0px 20px 0px;
+}
+
+/* Features section */
+#features {
+  background: #f8f8f8;
+  padding: 70px 0 40px 0;
+}
+
+#features img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 990px) {
+  .h2-features {
+    margin-top: 100px;
+  }
+}
+
+.h2-features {
+  font-size: 40px;
+}
+
+
+/* Info section below main-features */
+#info {
+  margin: 20px 0 60px 0;
+}
+
+/* Tutorial */
+#tutorial {
+  padding: 80px 0 80px 0;
+  background: #162B75;
+  color: #fff;
+}
+
+.tutorial-text {
+  font-weight: bold;
+}
+
+/* FAQ section */
+#faq {
+  background: #F8F8F8 !important;
+  padding: 70px 0 70px 0;
+  overflow: hidden;
+}
+
+#faq p {
+  color: #000;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  text-align: justify;
+  text-align: center;
+
+}
+
+#faq h2 {
+  color: #000;
+  padding: 10px 0 0px 0;
+}
+
+#faq-list {
+  padding: 0;
+  list-style: none;
+}
+
+#faq-list li {
+  border-bottom: 1px solid #ddd;
+}
+
+#faq-list a {
+  padding: 20px;
+  display: block;
+  position: relative;
+  font-size: 26px;
+  color: #000;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+}
+
+#faq-list a:active, a:focus, a:hover {
+  color: #000;
+}
+
+#faq-list i {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 16px;
+}
+
+#faq-list p {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  #faq #faq-list a {
+    font-size: 20px;
+    text-decoration: none;
+  }
+  #faq #faq-list i {
+    top: 13px;
+  }
+}
+
+#faq #faq-list a.collapse {
+  color: #1dc8cd;
+  text-decoration: none;
+}
+
+#faq #faq-list a.collapsed {
+  color: #000;
+  text-decoration: none;
+}
+
+#faq #faq-list a.collapsed i::before {
+  content: "\f2c7" !important;
+}
+
+/* Gallery */
+#gallery {
+  padding: 80px 0 80px 0;
+  background: #173086;
+
+}
+
+.gallery-text {
+  font-weight: bold;
+}
+
+/* Download */
+#download {
+  background: #00bce4;
+  color: #fff;
+  padding: 100px 0 100px 0;
+}
+
+.download-text {
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  color:  #fff;
+  background: #162B75;
+}
+
+hr {
+  margin: 50px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Button styling */
+/* Button in the header */
+.header-btn {
+  background-color: #162B75;
+  border-radius: 0;
+  padding: 10px 30px 10px 30px;
+  font-weight: 600;
+  color: #fff;
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+  text-transform: uppercase;
+}
+
+.header-btn:hover {
+  background: #00bce4;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Download section button */
+.buttons {
+  padding: 10px 40px 0px 40px;
+  margin: 20px;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  background-color: #fff;
+  color: #00bce4;
+}
+
+.buttons i {
+  font-size: 55px;
+  padding-top: 5px;
+  padding-right: 20px;
+  color: #00bce4;
+}
+
+.buttons:hover {
+  cursor: pointer;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.buttons:hover i, .buttons:hover a {
+  color: #fff !important;
+}
+
+.buttons a {
+  color: #00bce4;
+  text-decoration: none;
+}
+
+.buttons p span {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+html {
+  scroll-behavior: smooth;
+}
